@@ -1,0 +1,102 @@
+body {
+  background-image: url(Background.jpg);
+  background-position: center;
+  background-size: contain;
+
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+
+}
+
+a {
+  text-decoration: none;
+  color: #f67811;
+}
+header {
+  position: relative;
+
+  padding: 5px;
+  border: 3px double #87CEFA;
+}
+
+header a {
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+footer{
+    display: flex;
+    border: 3px double #87CEFA;
+}
+.site-title {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 80px;
+  font-weight: 100;
+  margin: 0 0 0 20px;
+}
+
+
+
+.content {
+  display: flex;
+}
+.side-buttons {
+  position: relative;
+}
+.action-button {
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+  background-color: #000;
+  border: 3px double #87CEFA;
+  border-radius: 5px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.welcome-image-container{
+  border: 3px double #87CEFA;
+  box-sizing: border-box;
+  width: 490px;
+  height: 370px;
+  position: relative;
+  padding-left: 90px;
+  padding-right: 70px;
+}
+.welcome-image-container .OffendedImage{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 90px;
+  padding-right: 70px;
+  z-index: 99;
+}
+.welcome-image-container:hover .OffendedImage {
+    display: inline;
+}
+.body-container{
+  width: 100%;
+  height: 880px;
+  border: 3px double #87CEFA;
+  overflow: auto;
+}
+
+#discussions-button {
+  padding-left: 133px;
+  padding-right: 133px;
+}
+#electronics-button {
+  padding-left: 58px;
+  padding-right: 58px;
+}
+#funny-button {
+  padding-left: 27px;
+  padding-right: 27px;
+}
+#beg-button {
+  padding-left: 32px;
+  padding-right: 32px;
+}
