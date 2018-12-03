@@ -1,0 +1,14 @@
+<main class = "forum-content">
+  <aside class = "post-button-container">
+    <button id="post-button" class="action-button">Create Post</button>
+    <input type="text" id ="text-input" placeholder="Enter Post. Don't hack my website!">
+  </aside>
+  <aside class= "forum-header-container">
+    <h3> {{forumName}}</h3>
+  </aside>
+  <aside class = "prior-posts-container">
+    {{#each posts}}
+      {{> newPostHandler}}
+    {{/each}}
+  </aside>
+</main>

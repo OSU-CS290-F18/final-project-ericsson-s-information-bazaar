@@ -26,6 +26,11 @@ header a {
 h2 {
   color: #fff;
 }
+
+h3{
+  text-align: center;
+}
+
 footer{
     display: flex;
     border: 3px double #87CEFA;
@@ -83,7 +88,16 @@ footer{
   border: 3px double #87CEFA;
   overflow: auto;
 }
+.post-container{
+  position: relative;
+  bottom: 0;
 
+  border: 3px double #ff0000;
+}
+.post-time{
+  width: 200px;
+  border: 3px double #ff0000;
+}
 #discussions-button {
   padding-left: 133px;
   padding-right: 133px;
@@ -99,4 +113,11 @@ footer{
 #beg-button {
   padding-left: 32px;
   padding-right: 32px;
+}
+#post-button{
+  font-size: 20px;
+  font-style: italic;
+}
+#text-input{
+  width: 100%;
 }
